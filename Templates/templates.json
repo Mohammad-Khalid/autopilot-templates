@@ -1,6 +1,48 @@
 {
     "Hello World": {
         "gitUrl": "https://github.com/Mohammad-Khalid/autopilot-templates.git",
-        "folderName" : "hello-world"
+        "folderName" : "hello-world",
+        "includeAsTemplate":true
+    },
+    "Deep Table Restaurant": {
+        "gitUrl": "https://github.com/Mohammad-Khalid/autopilot-templates.git",
+        "folderName" : "RestaurantReservations",
+        "includeAsTemplate":true
+    },
+    "Appointment Scheduling": {
+        "gitUrl": "https://github.com/Mohammad-Khalid/autopilot-templates.git",
+        "folderName" : "ApptScheduling",
+        "conversationExample" : [{
+            "author": "user",
+            "message" : "I want to make an appointment"
+        }, {
+            "author": "bot",
+            "message" : "What date do you want to come in?"
+        }, {
+            "author": "user",
+            "message" : "tomorrow"
+        }, {
+            "author": "bot",
+            "message" : "Thanks, what time would you like to come in?"
+        }],
+        "includeAsTemplate":true
+    },
+    "Hospitality": {
+        "gitUrl": "https://github.com/Mohammad-Khalid/autopilot-templates.git",
+        "folderName" : "Hospitality",
+        "conversationExample" : [{
+            "author": "user",
+            "message" : "I need towels"
+        }, {
+            "author": "bot",
+            "message" : "How many would you like?"
+        }, {
+            "author": "user",
+            "message" : "3 large towels"
+        }, {
+            "author": "bot",
+            "message" : "Your items will be dropped off within 10 minutes. What else can I help you with?"
+        }],
+        "includeAsTemplate":true
     }
 }
